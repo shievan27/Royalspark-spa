@@ -3,7 +3,8 @@ const Reviews = () => {
         <div className="reviews">
             <h1>Reviews From Our Customers</h1>
         <div className="review-section">
-    <img  className="arrow-image" src = "/arrow-30330_1280.webp" alt = "arrow" />    
+            <div className="arrow-box">
+    <img  className="arrow-image" src = "/arrow-30330_1280.webp" alt = "arrow" />  </div>  
             <div className="review-box">
                 <div className="image">
                 <img src ="channel-1.jpeg" alt = "customer" /> 
@@ -60,10 +61,8 @@ const Reviews = () => {
                     <p>great service and friendly staff.</p>
                 </div>
             </div>
-            
-            <div>
-            <img  className="arrow-pointer" src = "/arrow-30330_1280.webp" alt = "arrow" />
-            </div>
+            <div className="arrow-box">
+            <img  className="arrow-pointer" src = "/arrow-30330_1280.webp" alt = "arrow" /> </div>
             </div>
         
         </div>
